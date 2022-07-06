@@ -12,6 +12,7 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print('Start Pytom starter')
     print('Введение')
 print('gnhtyf')
 print('gnhtyf')
@@ -48,8 +49,26 @@ print('ing' in 'went')
 z.append(10)
 del z[0]
 print(z)
-
 for x in z:
     print('{} ^ 3 = {}'.format(x, x ** 3))
+    if x == z[9]:
+     break
+print('Условные конструкции')
+if z[8] == 9:
+    print('a')
+else:
+    print('b')
+print('c')
+if z[4] == 0:
+    print('d')
+elif z[1] == 2:
+    print('e')
+else:
+    print('f')
+num = int(input('Введите номер'))
+if num == 0:
+    print('zero')
+else:
+    print('not zero')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
