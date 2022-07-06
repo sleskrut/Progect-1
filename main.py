@@ -12,10 +12,12 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print('Введение')
 print('gnhtyf')
 print('gnhtyf')
 print('1')
 print('2')
+print('Переменные и типы данных')
 num = 124
 print (num)
 b = int(num) + 5
@@ -35,6 +37,19 @@ print(c)
 c = 'g \n' \
 'k'
 print(c)
-'Number = {}'.format(46)
-print(number)
+z = list(range(10))
+print(z)
+print(len(z))
+print(z[-1])
+print(z[0:8:2])
+print(8 in z)
+print("ing" in "going")
+print('ing' in 'went')
+z.append(10)
+del z[0]
+print(z)
+
+for x in z:
+    print('{} ^ 3 = {}'.format(x, x ** 3))
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
