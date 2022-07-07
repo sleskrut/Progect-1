@@ -70,5 +70,16 @@ if num == 0:
     print('zero')
 else:
     print('not zero')
+print('Функции')
+def g(l):
+    for i in range(l):
+        print(i + 1)
+g(10)
+def h(j, m):
+    return (j * m)
+print(h(4, 5))
+
+
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
