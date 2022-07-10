@@ -120,11 +120,12 @@ else:
     print('Вы не угадали число')
 for i in range(5, 10, 2):
     print(i**3)
-for i in range(1,10, 1):
+for i in range(1, 10, 1):
     for j in range(1, 5, 1):
         print('1', end='')
     print()
 print('Python Starter completed')
+
 
 
 
